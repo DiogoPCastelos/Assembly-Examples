@@ -6,7 +6,7 @@ number2: .quad 0 #same as above, but called "number2"
 .text #segment where it's read only
 
 #load of fucking strings (\n == increment in line)
-welcome: .asciz "\nDo you also wanna kill yourself? Try assembly! Brought to you by the x86_64 boys at AMD.\n\n"
+welcome: .asciz "\nDo you hate life and want a stupidly hard challenge? Try assembly! Brought to you by the x86_64 boys at AMD (because L INTEL).\n\n"
 prompt1: .asciz "Please enter the first number you wish to multipy: "
 prompt2: .asciz "Please enter the second number you wish to multiply: "
 input: .asciz "%ld" #%ld = placeholder of incoming value
