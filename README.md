@@ -1,1 +1,1 @@
-fyi -> Intel x86 assembly
+fyi -> Intel (lol) x86 assembly
