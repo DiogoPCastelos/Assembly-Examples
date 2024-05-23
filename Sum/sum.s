@@ -6,7 +6,7 @@ number2: .quad 0 #same as above, but called "number2"
 .text #segment where it's read only
 
 #load of fucking strings (\n == increment in line)
-welcome: .asciz "\nDo you also wanna kill yourself? Try assembly! Brought to you by the x86_64 boys at AMD.\n\n"
+welcome: .asciz "\There was a really un-family friendly line here before. So lets just say: Try assembly brought to you by AMD! and leave it at that.\n\n"
 prompt1: .asciz "Please enter the first number you wish to sum: "
 prompt2: .asciz "Please enter the second number you wish to sum: "
 input: .asciz "%ld" #%ld = placeholder of incoming value
